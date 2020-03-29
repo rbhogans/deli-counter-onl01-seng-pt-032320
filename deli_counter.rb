@@ -5,7 +5,11 @@
    if x.length >= 1 
    x.each_with_index {|person, index|
    line_queue.push("#{index+ 1}. #{person}")}
-   
+      puts "The line is currently: #{line_queue.join(" ")}"
+  else
+    puts "The line is currently empty."
+  end
+end
  def take_a_number(katz_deli, "Ada") 
    
    
